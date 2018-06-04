@@ -7,6 +7,7 @@ const Greet = ({name, surname}) => (
     Hello  {name} {surname}, it's great to know you my boy! 
   </div>
 );
+
 class App extends Component {
   render() {
     const dudeToGreet = {name: 'Ncedile', surname: 'Nkonyana'};
